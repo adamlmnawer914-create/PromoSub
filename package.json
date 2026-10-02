@@ -1,0 +1,17 @@
+{
+  "name": "promosub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PromoSub - متجر الاشتراكات الرقمية الأصلي والفاخر",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "promosub",
+    "subscriptions",
+    "morocco",
+    "digital-store"
+  ],
+  "author": "PromoSub",
+  "license": "ISC"
+}

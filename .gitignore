@@ -1,0 +1,8 @@
+.vercel
+node_modules
+generate_official_icons.py
+generate_luxury_payment_badges.py
+*.pyc
+__pycache__
+.DS_Store
+Thumbs.db
