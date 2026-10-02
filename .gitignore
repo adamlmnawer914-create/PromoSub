@@ -6,3 +6,5 @@ generate_luxury_payment_badges.py
 __pycache__
 .DS_Store
 Thumbs.db
+
+.vercel
