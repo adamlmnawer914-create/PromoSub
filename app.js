@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: 'جديد',
         basePrice: 39,
         desc: 'أقوى نموذج ذكاء اصطناعي من Google للتحليل، البرمجة، وتوليد المحتوى فائق الدقة.',
-        icon: 'assets/icons/gemini.png'
+        icon: 'assets/icons/gemini.png?v=5.0'
       },
       {
         id: 'youtube-premium',
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: 'الأكثر طلباً',
         basePrice: 18,
         desc: 'مشاهدة بدون أي إعلانات، تشغيل في الخلفية مع شاشة مقفلة، وتحميل بدون إنترنت.',
-        icon: 'assets/icons/youtube.png'
+        icon: 'assets/icons/youtube.png?v=5.0'
       },
       {
         id: 'netflix',
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: null,
         basePrice: 19,
         desc: 'استمع بموسيقاك وبودكاستك المفضل بدون إعلانات وبأعلى جودة صوت مع ميزة التحميل.',
-        icon: 'assets/icons/spotify.png'
+        icon: 'assets/icons/spotify.png?v=5.0'
       },
       {
         id: 'google-one',
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: null,
         basePrice: 22,
         desc: 'مساحة تخزين سحابية تبدأ من 2TB لنسخ صورك وملفاتك احتياطياً بأمان تام.',
-        icon: 'assets/icons/google_one.png'
+        icon: 'assets/icons/google_one.png?v=5.0'
       },
       {
         id: 'disney-plus',
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         badge: null,
         basePrice: 35,
         desc: 'حزمة أوفيس الرسمية (Word, Excel, PowerPoint) مع 1TB سحابية على OneDrive.',
-        icon: 'assets/icons/microsoft.png'
+        icon: 'assets/icons/microsoft.png?v=5.0'
       },
       {
         id: 'canva-pro',
