@@ -219,12 +219,17 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileDrawer.setAttribute('aria-hidden', 'false');
       if (menuToggleBtn) menuToggleBtn.classList.add('active');
       document.body.style.overflow = 'hidden';
+      document.body.classList.add('modal-open');
     } else {
       mobileDrawer.classList.remove('active');
       mobileDrawerBackdrop.classList.remove('active');
       mobileDrawer.setAttribute('aria-hidden', 'true');
       if (menuToggleBtn) menuToggleBtn.classList.remove('active');
-      document.body.style.overflow = '';
+      const anyActive = document.querySelector('.modal-overlay.active, .cart-drawer-overlay.active');
+      if (!anyActive) {
+        document.body.style.overflow = '';
+        document.body.classList.remove('modal-open');
+      }
     }
   }
 
@@ -419,13 +424,18 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.add('active');
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    document.body.classList.add('modal-open');
   }
 
   function closeModal(modal) {
     if (!modal) return;
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    const anyActive = document.querySelector('.modal-overlay.active, .cart-drawer-overlay.active, .mobile-drawer.active');
+    if (!anyActive) {
+      document.body.style.overflow = '';
+      document.body.classList.remove('modal-open');
+    }
   }
 
   // Close modals on clicking overlay or close buttons
